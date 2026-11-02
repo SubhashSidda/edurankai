@@ -10,6 +10,8 @@ import { StudentService } from '../../../lib/services/studentService.ts';
  * - totalCourses
  */
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     const result = await StudentService.getDashboardStats();

@@ -9,6 +9,8 @@ import { validateStudentInput } from '../../../lib/validations/student.ts';
  * - POST: Create new student with server-side validation and unique email enforcement
  */
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   try {
     const url = new URL(request.url);

@@ -9,6 +9,8 @@ import { validateCourseInput } from '../../../lib/validations/course.ts';
  * - POST: Create new course
  */
 
+export const dynamic = 'force-dynamic';
+
 export async function GET() {
   try {
     const result = await CourseService.getCourses();
