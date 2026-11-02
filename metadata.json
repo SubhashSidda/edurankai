@@ -1,0 +1,6 @@
+{
+  "name": "Student Management & Enrollment System",
+  "description": "Full-stack student enrollment and course management dashboard powered by Supabase PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
